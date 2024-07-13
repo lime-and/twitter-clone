@@ -4,7 +4,7 @@ import { IoShareOutline, IoStatsChart } from "react-icons/io5";
 
 const MainComponent = () => {
   return (
-    <main className="flex w-[60%] h-full min-h-screen flex-col border-l border-r border-gray-600">
+    <main className="sticky top-0 flex w-[50%] h-full min-h-screen flex-col border-l-[0.5px] border-r-[0.5px] border-gray-600">
           <h1 className="text-xl font-bold p-6 backdrop-blur bg-black/10 sticky top-0">Home</h1>
           <div className="border-t border-b border-gray-600 px-4 py-4 flex space-x-2 items-start h-32">
             <div className="w-10 h-10 bg-slate-400 rounded-full"></div>
@@ -15,7 +15,7 @@ const MainComponent = () => {
                 placeholder="What's happening"
               />
               <div className="flex justify-end mt-2">
-                <button className="rounded-full bg-primary px-4 py-2 text-lg font-bold hover:bg-opacity-70 transition duration-200">
+                <button className="rounded-full bg-primary px-4 py-1 text-lg font-bold hover:bg-opacity-70 transition duration-200">
                   Post
                 </button>
               </div>
